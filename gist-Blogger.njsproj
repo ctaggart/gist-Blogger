@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3cdf994f-67ad-4588-8659-dab77eb02bde}</ProjectGuid>
+    <ProjectHome />
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include="README.md" />
+    <Compile Include="gistBlogger.js" />
+    <Compile Include="gistLoader.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git" />
+    <Folder Include=".git\hooks" />
+    <Folder Include=".git\info" />
+    <Folder Include=".git\logs" />
+    <Folder Include=".git\logs\refs" />
+    <Folder Include=".git\logs\refs\heads" />
+    <Folder Include=".git\logs\refs\remotes" />
+    <Folder Include=".git\logs\refs\remotes\origin" />
+    <Folder Include=".git\objects" />
+    <Folder Include=".git\objects\06" />
+    <Folder Include=".git\objects\0d" />
+    <Folder Include=".git\objects\0e" />
+    <Folder Include=".git\objects\12" />
+    <Folder Include=".git\objects\14" />
+    <Folder Include=".git\objects\16" />
+    <Folder Include=".git\objects\18" />
+    <Folder Include=".git\objects\1a" />
+    <Folder Include=".git\objects\1f" />
+    <Folder Include=".git\objects\22" />
+    <Folder Include=".git\objects\23" />
+    <Folder Include=".git\objects\25" />
+    <Folder Include=".git\objects\26" />
+    <Folder Include=".git\objects\30" />
+    <Folder Include=".git\objects\32" />
+    <Folder Include=".git\objects\3f" />
+    <Folder Include=".git\objects\45" />
+    <Folder Include=".git\objects\4a" />
+    <Folder Include=".git\objects\4b" />
+    <Folder Include=".git\objects\54" />
+    <Folder Include=".git\objects\59" />
+    <Folder Include=".git\objects\5d" />
+    <Folder Include=".git\objects\5e" />
+    <Folder Include=".git\objects\61" />
+    <Folder Include=".git\objects\63" />
+    <Folder Include=".git\objects\6d" />
+    <Folder Include=".git\objects\72" />
+    <Folder Include=".git\objects\79" />
+    <Folder Include=".git\objects\87" />
+    <Folder Include=".git\objects\8c" />
+    <Folder Include=".git\objects\8e" />
+    <Folder Include=".git\objects\92" />
+    <Folder Include=".git\objects\97" />
+    <Folder Include=".git\objects\9a" />
+    <Folder Include=".git\objects\9c" />
+    <Folder Include=".git\objects\a5" />
+    <Folder Include=".git\objects\a6" />
+    <Folder Include=".git\objects\a8" />
+    <Folder Include=".git\objects\a9" />
+    <Folder Include=".git\objects\af" />
+    <Folder Include=".git\objects\b9" />
+    <Folder Include=".git\objects\bd" />
+    <Folder Include=".git\objects\bf" />
+    <Folder Include=".git\objects\c4" />
+    <Folder Include=".git\objects\d8" />
+    <Folder Include=".git\objects\d9" />
+    <Folder Include=".git\objects\e6" />
+    <Folder Include=".git\objects\f6" />
+    <Folder Include=".git\objects\info" />
+    <Folder Include=".git\objects\pack" />
+    <Folder Include=".git\refs" />
+    <Folder Include=".git\refs\heads" />
+    <Folder Include=".git\refs\remotes" />
+    <Folder Include=".git\refs\remotes\origin" />
+    <Folder Include=".git\refs\tags" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
