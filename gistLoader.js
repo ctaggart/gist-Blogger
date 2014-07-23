@@ -8,7 +8,7 @@
         initGist();
     } catch(e) {
         // load jquery if it is not already
-        if (! $) {
+        if (typeof $ === 'undefined') {
             var elem = document.createElement('script');
             elem.src = jquerySrc;
             var theBody = document.getElementsByTagName('body')[0];
